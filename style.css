@@ -1,0 +1,220 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url(images/bg-header-desktop.png);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+.logo {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 5%;
+}
+.logo img {
+  width: 80px;
+}
+.logo h1 {
+  font-size: 3em;
+  font-family: "Bai Jamjuree", sans-serif;
+  padding: 3% 0 1% 0;
+  color: rgba(0, 0, 0, 0.6);
+}
+.logo p {
+  color: #777;
+  padding: 10px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.3em;
+}
+.download {
+  display: inline-block;
+  margin: 15px;
+}
+.load {
+  background-color: hsl(171, 66%, 44%);
+  color: #fff !important;
+  border-radius: 20px;
+  font-size: 16px !important;
+  padding: 10px 40px !important;
+  box-shadow: 4px 10px 20px 0 rgba(0, 0, 0, 0.2) !important;
+  margin: 30px 0;
+}
+.load:hover,
+.down:hover {
+  box-shadow: -10px 10px 20px 20px rgba(0, 0, 0, 0.2) !important;
+}
+.down {
+  background-color: hsl(233, 100%, 69%);
+  color: #fff !important;
+  border-radius: 20px;
+  font-size: 16px !important;
+  box-shadow: 4px 10px 20px 0 rgba(0, 0, 0, 0.2) !important;
+  padding: 10px 40px !important;
+}
+.snippet {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+.snippet h2 {
+  font-size: 2rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+.snippet p {
+  font-size: 16px;
+  font-family: "Bai Jamjuree", sans-serif;
+  padding: 20px 0;
+  color: #777;
+  line-height: 22px;
+}
+.photoo {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4%;
+}
+.flex {
+  width: 80%;
+}
+.flex img {
+  margin-right: 30px;
+}
+.flex h3 {
+  font-size: 1.5rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 25px;
+}
+.flex p {
+  font-size: 14px;
+  font-family: "Bai Jamjuree", sans-serif;
+  padding: 20px 0;
+  color: #777;
+  line-height: 22px;
+}
+.flexL {
+  padding-top: 70px;
+}
+.tabpho {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+.tabpho h2 {
+  font-size: 2rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+.tabpho p {
+  font-size: 14px;
+  font-family: "Bai Jamjuree", sans-serif;
+  padding: 20px 0;
+  color: #777;
+  line-height: 22px;
+}
+.tabpho img {
+  width: 700px;
+}
+.charge {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+.charge h2 {
+  font-size: 2rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: rgba(0, 0, 0, 0.6);
+}
+.charge p {
+  font-size: 14px;
+  font-family: "Bai Jamjuree", sans-serif;
+  padding: 20px 0;
+  color: #777;
+  line-height: 22px;
+}
+.supcharge {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.super {
+  background-color: #fff3f3;
+  flex-basis: 31%;
+  padding: 10px 5px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.super h3 {
+  font-size: 1.5rem;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  padding-top: 25px;
+}
+.super:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.logos {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+}
+.logop {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+}
+.log {
+  flex-basis: 31%;
+  padding: 10px 5px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.log:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.footer {
+  width: 80%;
+  padding-top: 3%;
+  background-color: rgb(247, 247, 247);
+  display: flex;
+  margin: 20px 100px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.footer img {
+  width: 30px;
+  margin-left: 40px;
+  padding: 0 15px;
+  height: 40px;
+  position: relative;
+}
+.fot {
+  display: flex;
+  margin: 0 80px;
+}
+.fot p {
+  font-family: "Bai Jamjuree", sans-serif;
+  color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  font-size: 13px;
+}
+.icons .fab {
+  font-size: 16px;
+  margin: 15px;
+  color: #777;
+}
+.icons {
+  float: right;
+  position: absolute;
+  right: 15%;
+}
